@@ -1,0 +1,331 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #100c12;
+  color: #fff8fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 35% 15%, rgba(255, 49, 116, 0.12), transparent 36rem),
+    #100c12;
+}
+
+button,
+select,
+input {
+  font: inherit;
+}
+
+button,
+select {
+  color: inherit;
+  background: #281d29;
+  border: 1px solid #5b4055;
+  border-radius: 0.7rem;
+}
+
+button {
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+
+button:hover,
+select:hover {
+  border-color: #ff548c;
+}
+
+select {
+  min-width: 10rem;
+  padding: 0.58rem 2rem 0.58rem 0.7rem;
+}
+
+#heart-simulator {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+  padding: clamp(1rem, 3vw, 2.2rem);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.7rem, 4vw, 3rem);
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+}
+
+.eyebrow {
+  margin-bottom: 0.35rem;
+  color: #dc9cb2;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.header-controls {
+  display: flex;
+  align-items: end;
+  gap: 0.65rem;
+}
+
+.header-controls label,
+.control-group label:not(.checkbox-row) {
+  display: grid;
+  gap: 0.42rem;
+  color: #d9c8d0;
+  font-size: 0.82rem;
+}
+
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 17rem;
+  gap: 1rem;
+  align-items: start;
+}
+
+.stage,
+aside {
+  border: 1px solid #392a39;
+  background: rgba(20, 14, 21, 0.84);
+}
+
+.stage {
+  position: relative;
+  min-height: 36rem;
+  overflow: hidden;
+  border-radius: 1.4rem;
+}
+
+#heart-canvas {
+  display: block;
+  width: 100%;
+  height: min(74vh, 720px);
+  min-height: 36rem;
+}
+
+#pixel-detail {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 0.55rem;
+  background: rgba(12, 8, 13, 0.84);
+  color: #eacfd9;
+  font: 0.74rem ui-monospace, SFMono-Regular, Menlo, monospace;
+  pointer-events: none;
+}
+
+aside {
+  overflow: hidden;
+  border-radius: 1rem;
+}
+
+.control-group {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1rem;
+  border-bottom: 1px solid #392a39;
+}
+
+.control-group:last-child {
+  border-bottom: 0;
+}
+
+.control-group label span {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.7rem;
+}
+
+output {
+  color: #ff8ab1;
+  font-variant-numeric: tabular-nums;
+}
+
+input[type="range"] {
+  width: 100%;
+  accent-color: #ff3e7f;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: #d9c8d0;
+  font-size: 0.82rem;
+}
+
+.checkbox-row input {
+  accent-color: #ff3e7f;
+}
+
+.quiet {
+  background: transparent;
+}
+
+.mode-note,
+.vector-control small {
+  margin: 0;
+  color: #ad929e;
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+.vector-control {
+  display: grid;
+  justify-items: center;
+  gap: 0.6rem;
+}
+
+.vector-control > span {
+  display: grid;
+  width: 100%;
+  gap: 0.2rem;
+  color: #d9c8d0;
+  font-size: 0.82rem;
+}
+
+.vector-control > span output {
+  white-space: nowrap;
+}
+
+.vector-pad {
+  position: relative;
+  width: 9.25rem;
+  height: 9.25rem;
+  overflow: hidden;
+  border: 1px solid #70495f;
+  border-radius: 50%;
+  background:
+    linear-gradient(90deg, transparent calc(50% - 0.5px), rgba(255, 255, 255, 0.17) 50%, transparent calc(50% + 0.5px)),
+    linear-gradient(transparent calc(50% - 0.5px), rgba(255, 255, 255, 0.17) 50%, transparent calc(50% + 0.5px)),
+    radial-gradient(circle, rgba(255, 62, 127, 0.10), transparent 68%),
+    #1c151e;
+  cursor: crosshair;
+  touch-action: none;
+  user-select: none;
+}
+
+.vector-pad:focus-visible {
+  outline: 2px solid #ff76a5;
+  outline-offset: 3px;
+}
+
+.vector-pad::after {
+  position: absolute;
+  inset: 13%;
+  border: 1px dashed rgba(255, 255, 255, 0.10);
+  border-radius: 50%;
+  content: "";
+}
+
+.vector-line {
+  position: absolute;
+  left: 50%;
+  top: calc(50% - 1px);
+  width: 50%;
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff3e7f, #ff9abd);
+  transform-origin: left center;
+  pointer-events: none;
+}
+
+.vector-knob {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  z-index: 1;
+  width: 1.05rem;
+  height: 1.05rem;
+  border: 2px solid #fff2f7;
+  border-radius: 50%;
+  background: #ff3e7f;
+  box-shadow: 0 0 0 4px rgba(255, 62, 127, 0.18);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.axis-label {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.38);
+  font: 0.58rem ui-monospace, SFMono-Regular, Menlo, monospace;
+  pointer-events: none;
+}
+
+.axis-up {
+  top: 0.35rem;
+  left: calc(50% + 0.35rem);
+}
+
+.axis-right {
+  top: calc(50% + 0.35rem);
+  right: 0.35rem;
+}
+
+.file-label input {
+  width: 100%;
+  color: #c7afb9;
+  font-size: 0.74rem;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+@media (max-width: 760px) {
+  header {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .header-controls {
+    width: 100%;
+  }
+
+  .header-controls label {
+    flex: 1;
+  }
+
+  .header-controls select {
+    width: 100%;
+  }
+
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+
+  .stage,
+  #heart-canvas {
+    min-height: 29rem;
+  }
+
+  #heart-canvas {
+    height: 62vh;
+  }
+}

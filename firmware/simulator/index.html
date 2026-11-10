@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rava Heart LED Lab</title>
+    <link rel="stylesheet" href="styles.css?v=6">
+  </head>
+  <body>
+    <main id="heart-simulator">
+      <header>
+        <div>
+          <p class="eyebrow">144 pixels · 2 × 72 at 800 kb/s · 60 FPS firmware</p>
+          <h1>Rava Heart LED Lab</h1>
+        </div>
+        <div class="header-controls">
+          <label>
+            Mode
+            <select id="mode">
+              <option value="heartbeat">Heartbeat</option>
+              <option value="liquid">Gravity Red</option>
+              <option value="rainbow">Flowing Rainbow</option>
+              <option value="love">I ♥ U</option>
+              <option value="arrow">Find Heart</option>
+              <option value="media">Image / GIF</option>
+            </select>
+          </label>
+          <button id="play" type="button">Pause</button>
+        </div>
+      </header>
+
+      <section class="workspace">
+        <div class="stage">
+          <canvas id="heart-canvas" aria-label="Heart PCB LED simulation"></canvas>
+          <div id="pixel-detail" aria-live="polite">Move over an LED to inspect it</div>
+        </div>
+
+        <aside>
+          <section class="control-group common-controls">
+            <label>
+              <span>Brightness <output id="brightness-value">55%</output></span>
+              <input id="brightness" type="range" min="0" max="100" value="55">
+            </label>
+            <label class="checkbox-row">
+              <input id="gamma" type="checkbox" checked>
+              Firmware gamma
+            </label>
+            <label class="checkbox-row">
+              <input id="addresses" type="checkbox">
+              Show diode addresses
+            </label>
+            <label>
+              <span>LED size <output id="size-value">100%</output></span>
+              <input id="led-size" type="range" min="55" max="150" value="100">
+            </label>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="heartbeat">
+            <h2>Heartbeat</h2>
+            <label>
+              <span>Tempo <output id="bpm-value">64 BPM</output></span>
+              <input id="bpm" type="range" min="35" max="150" value="64">
+            </label>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="liquid" hidden>
+            <h2>Gravity Red</h2>
+            <div class="vector-control">
+              <span>
+                In-plane acceleration
+                <output id="gravity-vector-value">X +0.00 · Y −1.00 g</output>
+              </span>
+              <div
+                id="gravity-pad"
+                class="vector-pad"
+                role="slider"
+                tabindex="0"
+                aria-label="Two-dimensional in-plane acceleration"
+                aria-valuetext="X 0.00, Y minus 1.00 g"
+              >
+                <div id="gravity-vector-line" class="vector-line"></div>
+                <div id="gravity-knob" class="vector-knob"></div>
+                <span class="axis-label axis-up">+Y</span>
+                <span class="axis-label axis-right">+X</span>
+              </div>
+              <small>Drag toward where the red liquid should accelerate.</small>
+            </div>
+            <button id="shake" type="button">Shake / splash</button>
+            <button id="reset-liquid" type="button" class="quiet">Reset liquid</button>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="rainbow" hidden>
+            <h2>Flowing Rainbow</h2>
+            <p class="mode-note">A smooth rotating color field sampled at the exact LED positions.</p>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="love" hidden>
+            <h2>I ♥ U message</h2>
+            <p class="mode-note">Hardware: hold S3 to play this here and send it to the paired heart.</p>
+            <button id="replay-love" type="button">Replay message</button>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="arrow" hidden>
+            <h2>Find Heart</h2>
+            <label>
+              <span>Other heart bearing <output id="bearing-value">0° N</output></span>
+              <input id="bearing" type="range" min="0" max="359" value="0">
+            </label>
+            <label>
+              <span>This heart heading <output id="heading-value">0° N</output></span>
+              <input id="heading" type="range" min="0" max="359" value="0">
+            </label>
+            <label class="checkbox-row">
+              <input id="arrow-valid" type="checkbox" checked>
+              Compass and target available
+            </label>
+          </section>
+
+          <section class="control-group mode-panel" data-mode="media" hidden>
+            <h2>Image / GIF sampler</h2>
+            <label class="file-label">
+              Choose image or GIF
+              <input id="media-file" type="file" accept="image/*,.gif">
+            </label>
+            <label>
+              Fit
+              <select id="media-fit">
+                <option value="cover">Cover heart</option>
+                <option value="contain">Contain image</option>
+                <option value="stretch">Stretch to matrix</option>
+              </select>
+            </label>
+            <label>
+              <span>Scale <output id="media-scale-value">100%</output></span>
+              <input id="media-scale" type="range" min="25" max="250" value="100">
+            </label>
+            <label>
+              <span>Horizontal <output id="media-x-value">0%</output></span>
+              <input id="media-x" type="range" min="-100" max="100" value="0">
+            </label>
+            <label>
+              <span>Vertical <output id="media-y-value">0%</output></span>
+              <input id="media-y" type="range" min="-100" max="100" value="0">
+            </label>
+            <button id="export-frame" type="button" class="quiet">Export current frame JSON</button>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script src="generated/pixel-map.js"></script>
+    <script src="engine.js?v=6"></script>
+    <script src="simulator.js?v=6"></script>
+  </body>
+</html>

@@ -1,0 +1,1193 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "FTC252010S4R7MBCA"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTC252010S4R7MBCA"
+			(at 0 -2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport_Auto:FTC252010S4R7MBCA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2306021632_cjiang--Changjiang-Microelectronics-Tech-FTC252010S4R7MBCA_C5832360.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "160mΩ 2.6A 2A 4.7uH ±20% 1008 Power Inductors ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5832360"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "cjiang (Changjiang Microelectronics Tech)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "FTC252010S4R7MBCA"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C5832360 FTC252010S4R7MBCA IND-SMD_L2.5-W2.0-VLS252012CX-150M cjiang (Changjiang Microelectronics Tech)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "FTC252010S4R7MBCA_0_1"
+			(arc
+				(start -4.064 0.0051)
+				(mid -3.0429 1.016)
+				(end -2.032 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.032 0.0051)
+				(mid -1.0109 1.016)
+				(end 0 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0051)
+				(mid 1.0211 1.016)
+				(end 2.032 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.032 0.0051)
+				(mid 3.0531 1.016)
+				(end 4.064 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "FTC252010S4R7MBCA_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.016)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 1.016)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SY8089AAAC"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 7.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SY8089AAAC"
+			(at 0 -7.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport_Auto:SY8089AAAC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108261630_Silergy-Corp-SY8089AAAC_C78988.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃@(TA) 1 1MHz 2.7V~5.5V 2A 55uA Adjustable Buck Buck Built-in Yes SOT-23-5 DC-DC Converters ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C78988"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Silergy Corp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SY8089AAAC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C78988 SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR SY8089AAAC Silergy Corp"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SY8089AAAC_0_1"
+			(circle
+				(center -6.35 4.318)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -6.35 4.318)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 -5.588) (xy 7.2111 -5.5783) (xy 7.3064 -5.5493) (xy 7.3942 -5.5024) (xy 7.4712 -5.4392)
+					(xy 7.5344 -5.3622) (xy 7.5813 -5.2744) (xy 7.6103 -5.1791) (xy 7.62 -5.08) (xy 7.6103 5.1791)
+					(xy 7.5813 5.2744) (xy 7.5344 5.3622) (xy 7.4712 5.4392) (xy 7.3942 5.5024) (xy 7.3064 5.5493)
+					(xy 7.2111 5.5783) (xy 7.112 5.588) (xy -7.2111 5.5783) (xy -7.3064 5.5493) (xy -7.3942 5.5024)
+					(xy -7.4712 5.4392) (xy -7.5344 5.3622) (xy -7.5813 5.2744) (xy -7.6103 5.1791) (xy -7.62 5.08)
+					(xy -7.6103 -5.1791) (xy -7.5813 -5.2744) (xy -7.5344 -5.3622) (xy -7.4712 -5.4392) (xy -7.3942 -5.5024)
+					(xy -7.3064 -5.5493) (xy -7.2111 -5.5783) (xy -7.112 -5.588) (xy 7.112 -5.588)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "SY8089AAAC_1_1"
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "LX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "WS2812B-MINI-V6"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 7.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B-MINI-V6"
+			(at 0 -4.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport_Auto:WS2812B-MINI-V6"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/115827.html"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Built-in power-on reset circuit、Built-in power-on reset circuit、Integrated intelligent reverse connection protection function SMD3535-4P RGB LEDs(Built-in IC) ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52941386"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Worldsemi"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "WS2812B-MINI-V6"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C52941386 LED-SMD_4P-L3.5-W3.5-TL_WS2812B WS2812B-MINI-V6 Worldsemi"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "WS2812B-MINI-V6_0_1"
+			(circle
+				(center -6.35 3.81)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.112 -2.54) (xy 7.2111 -2.5302) (xy 7.3064 -2.5013) (xy 7.3942 -2.4544) (xy 7.4712 -2.3912)
+					(xy 7.5344 -2.3142) (xy 7.5813 -2.2264) (xy 7.6103 -2.1311) (xy 7.62 -2.032) (xy 7.6103 4.6711)
+					(xy 7.5813 4.7664) (xy 7.5344 4.8542) (xy 7.4712 4.9312) (xy 7.3942 4.9944) (xy 7.3064 5.0413)
+					(xy 7.2111 5.0702) (xy 7.112 5.08) (xy -7.2111 5.0702) (xy -7.3064 5.0413) (xy -7.3942 4.9944)
+					(xy -7.4712 4.9312) (xy -7.5344 4.8542) (xy -7.5813 4.7664) (xy -7.6103 4.6711) (xy -7.62 4.572)
+					(xy -7.6103 -2.1311) (xy -7.5813 -2.2264) (xy -7.5344 -2.3142) (xy -7.4712 -2.3912) (xy -7.3942 -2.4544)
+					(xy -7.3064 -2.5013) (xy -7.2111 -2.5302) (xy -7.112 -2.54) (xy 7.112 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "WS2812B-MINI-V6_1_1"
+			(pin power_in line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 10.16 2.54 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+  (symbol "TPS259531DSGR"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 9.620015 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TPS259531DSGR" (at 0 -9.620015 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLCImport_Auto:TPS259531DSGR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302281030_Texas-Instruments-TPS259531DSGR_C2155674.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-40℃~+125℃@(Tj) 0.75mm 1 2.7V~18V 2mm 2mm 34mΩ Integrated FET Surface Mount WSON-8-EP(2x2) Surge Protection Devices (SPDs) ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C2155674 TPS259531DSGR Texas Instruments WSON-8_L2.0-W2.0-P0.50-TL-EP" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C2155674" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Texas Instruments" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "TPS259531DSGR" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "TPS259531DSGR_0_1"
+      (polyline
+        (pts
+          (xy 10.922022 -7.620015)
+          (xy 11.021128 -7.610254)
+          (xy 11.116425 -7.581346)
+          (xy 11.204252 -7.534402)
+          (xy 11.281233 -7.471225)
+          (xy 11.344409 -7.394244)
+          (xy 11.391354 -7.306418)
+          (xy 11.420262 -7.21112)
+          (xy 11.430023 -7.112014)
+          (xy 11.420262 7.21112)
+          (xy 11.391354 7.306418)
+          (xy 11.344409 7.394244)
+          (xy 11.281233 7.471225)
+          (xy 11.204252 7.534402)
+          (xy 11.116425 7.581346)
+          (xy 11.021128 7.610254)
+          (xy 10.922022 7.620015)
+          (xy -11.021128 7.610254)
+          (xy -11.116425 7.581346)
+          (xy -11.204252 7.534402)
+          (xy -11.281233 7.471225)
+          (xy -11.344409 7.394244)
+          (xy -11.391354 7.306418)
+          (xy -11.420262 7.21112)
+          (xy -11.430023 7.112014)
+          (xy -11.420262 -7.21112)
+          (xy -11.391354 -7.306418)
+          (xy -11.344409 -7.394244)
+          (xy -11.281233 -7.471225)
+          (xy -11.204252 -7.534402)
+          (xy -11.116425 -7.581346)
+          (xy -11.021128 -7.610254)
+          (xy -10.922022 -7.620015)
+          (xy 10.922022 -7.620015)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -10.16002 6.350013) (radius 0.381001)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -13.970028 2.540005 0) (length 2.540005)
+        (name "dVdt" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -13.970028 0 0) (length 2.540005)
+        (name "EN/UVLO" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -13.970028 -2.540005 0) (length 2.540005)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -13.970028 -5.08001 0) (length 2.540005)
+        (name "IN" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 13.970028 -5.08001 180) (length 2.540005)
+        (name "OUT" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 13.970028 -2.540005 180) (length 2.540005)
+        (name "FLT#" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 13.970028 0 180) (length 2.540005)
+        (name "ILM" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 13.970028 2.540005 180) (length 2.540005)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 13.970028 5.08001 180) (length 2.540005)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "9" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "SRV05-4A_C20615829"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 14.700025 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SRV05-4A_C20615829" (at 0 -14.700025 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLCImport_Auto:SRV05-4A_C20615829" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2407101109_hongjiacheng-SRV05-4A_C20615829.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-55℃~+155℃ 0.5pF、1pF 15V 4A@8/20us 5V 5uA 6V 80W@8/20us ESD IEC 61000-4-2、IEC 61000-4-5 Unidirectional SOT-23-6L ESD and Surge Protection (TVS/ESD) ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "C20615829 SOT-23-6_L2.9-W1.6-P0.95-LS2.9-BL SRV05-4A hongjiacheng" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C20615829" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "hongjiacheng" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "SRV05-4A" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "SRV05-4A_C20615829_0_1"
+      (polyline
+        (pts
+          (xy 9.652019 -10.16002)
+          (xy 9.751125 -10.150259)
+          (xy 9.846423 -10.121351)
+          (xy 9.93425 -10.074407)
+          (xy 10.01123 -10.01123)
+          (xy 10.074407 -9.93425)
+          (xy 10.121351 -9.846423)
+          (xy 10.150259 -9.751125)
+          (xy 10.16002 -9.652019)
+          (xy 10.150259 9.751125)
+          (xy 10.121351 9.846423)
+          (xy 10.074407 9.93425)
+          (xy 10.01123 10.01123)
+          (xy 9.93425 10.074407)
+          (xy 9.846423 10.121351)
+          (xy 9.751125 10.150259)
+          (xy 9.652019 10.16002)
+          (xy -9.751125 10.150259)
+          (xy -9.846423 10.121351)
+          (xy -9.93425 10.074407)
+          (xy -10.01123 10.01123)
+          (xy -10.074407 9.93425)
+          (xy -10.121351 9.846423)
+          (xy -10.150259 9.751125)
+          (xy -10.16002 9.652019)
+          (xy -10.150259 -9.751125)
+          (xy -10.121351 -9.846423)
+          (xy -10.074407 -9.93425)
+          (xy -10.01123 -10.01123)
+          (xy -9.93425 -10.074407)
+          (xy -9.846423 -10.121351)
+          (xy -9.751125 -10.150259)
+          (xy -9.652019 -10.16002)
+          (xy 9.652019 -10.16002)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -7.620015 1.016002) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center -2.540005 -6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center -2.540005 -1.016002) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center -2.540005 6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 0 6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 0 -6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 2.540005 -6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 2.540005 -1.016002) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 2.540005 6.096012) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (circle (center 7.620015 1.016002) (radius 0.254001)
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 7.620015 1.016002) (xy 5.08001 1.016002) (xy 5.08001 10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.540005 -1.016002) (xy 5.08001 -1.016002) (xy 5.08001 -10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.540005 -1.016002) (xy -5.08001 -1.016002) (xy -5.08001 -10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.620015 1.016002) (xy -5.08001 1.016002) (xy -5.08001 10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 7.620015 2.540005) (xy 7.620015 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.540005 2.540005) (xy 2.540005 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.540005 2.540005) (xy -2.540005 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 1.270003) (xy 0 7.620015))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.540005 5.08001) (xy -2.540005 6.096012))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.540005 5.08001) (xy 2.540005 6.096012))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.620015 5.08001) (xy -7.620015 6.096012) (xy 7.620015 6.096012) (xy 7.620015 5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 0 -1.270003) (xy 0 -10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -2.540005 -5.08001) (xy -2.540005 -6.096012))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 2.540005 -5.08001) (xy 2.540005 -6.096012))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.620015 -5.08001) (xy -7.620015 -6.096012) (xy 7.620015 -6.096012) (xy 7.620015 -5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -7.620015 2.540005) (xy -7.620015 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.524003 0.762002) (xy 1.524003 0.762002) (xy 1.524003 1.270003) (xy -1.524003 1.270003) (xy -1.524003 1.778004) (xy -1.524003 1.778004))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.270003 -1.270003) (xy 0 1.270003) (xy -1.270003 -1.270003) (xy 1.270003 -1.270003))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 4.064008 -2.540005) (xy 1.270003 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.270003 -5.08001) (xy 2.540005 -2.540005) (xy 3.810008 -5.08001) (xy 1.270003 -5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 4.064008 5.08001) (xy 1.270003 5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 1.270003 2.540005) (xy 2.540005 5.08001) (xy 3.810008 2.540005) (xy 1.270003 2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 9.144018 -2.540005) (xy 6.350013 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 6.350013 -5.08001) (xy 7.620015 -2.540005) (xy 8.890018 -5.08001) (xy 6.350013 -5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 9.144018 5.08001) (xy 6.350013 5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy 6.350013 2.540005) (xy 7.620015 5.08001) (xy 8.890018 2.540005) (xy 6.350013 2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy -6.096012 -2.540005) (xy -8.890018 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -8.890018 -5.08001) (xy -7.620015 -2.540005) (xy -6.350013 -5.08001) (xy -8.890018 -5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy -6.096012 5.08001) (xy -8.890018 5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -8.890018 2.540005) (xy -7.620015 5.08001) (xy -6.350013 2.540005) (xy -8.890018 2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy -1.016002 -2.540005) (xy -3.810008 -2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -3.810008 -5.08001) (xy -2.540005 -2.540005) (xy -1.270003 -5.08001) (xy -3.810008 -5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy -1.016002 5.08001) (xy -3.810008 5.08001))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (polyline
+        (pts (xy -3.810008 2.540005) (xy -2.540005 5.08001) (xy -1.270003 2.540005) (xy -3.810008 2.540005))
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (polyline
+        (pts (xy 0 7.620015) (xy 0 10.16002))
+        (stroke (width 0.254) (type solid))
+        (fill (type none))
+      )
+      (pin unspecified line (at -5.08001 12.700025 270) (length 2.540005)
+        (name "I/O" (effects (font (size 1.27 1.27)) hide))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 12.700025 270) (length 2.540005)
+        (name "VP" (effects (font (size 1.27 1.27)) hide))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 5.08001 12.700025 270) (length 2.540005)
+        (name "I/O" (effects (font (size 1.27 1.27)) hide))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 5.08001 -12.700025 90) (length 2.540005)
+        (name "I/O" (effects (font (size 1.27 1.27)) hide))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 -12.700025 90) (length 2.540005)
+        (name "VN" (effects (font (size 1.27 1.27)) hide))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -5.08001 -12.700025 90) (length 2.540005)
+        (name "I/O" (effects (font (size 1.27 1.27)) hide))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "74AHCT2G125DC_125"
+    (pin_names (offset 1.016))
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U" (at 0 8.350013 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "74AHCT2G125DC_125" (at 0 -8.350013 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "JLCImport_Auto:74AHCT2G125DC_125" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407261710_Nexperia-74AHCT2G125DC-125_C554633.pdf" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "-40℃~+125℃ 2 2 4.5V~5.5V 40uA 74AHCT 8.5ns@5.5V,50pF 8mA 8mA TTL-compatible CMOS Tri-State Unidirectional VSSOP-8-0.5mm Buffers, Drivers, Receivers, Transceivers ROHS" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_keywords" "74AHCT2G125DC,125 C554633 Nexperia VSSOP-8_L2.1-W2.4-P0.50-LS3.2-BL" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C554633" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part" "74AHCT2G125DC,125" (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "74AHCT2G125DC_125_0_1"
+      (polyline
+        (pts
+          (xy 8.382017 -6.350013)
+          (xy 8.481123 -6.340252)
+          (xy 8.57642 -6.311343)
+          (xy 8.664247 -6.264399)
+          (xy 8.741228 -6.201223)
+          (xy 8.804404 -6.124242)
+          (xy 8.851349 -6.036415)
+          (xy 8.880257 -5.941118)
+          (xy 8.890018 -5.842012)
+          (xy 8.880257 5.941118)
+          (xy 8.851349 6.036415)
+          (xy 8.804404 6.124242)
+          (xy 8.741228 6.201223)
+          (xy 8.664247 6.264399)
+          (xy 8.57642 6.311343)
+          (xy 8.481123 6.340252)
+          (xy 8.382017 6.350013)
+          (xy -8.481123 6.340252)
+          (xy -8.57642 6.311343)
+          (xy -8.664247 6.264399)
+          (xy -8.741228 6.201223)
+          (xy -8.804404 6.124242)
+          (xy -8.851349 6.036415)
+          (xy -8.880257 5.941118)
+          (xy -8.890018 5.842012)
+          (xy -8.880257 -5.941118)
+          (xy -8.851349 -6.036415)
+          (xy -8.804404 -6.124242)
+          (xy -8.741228 -6.201223)
+          (xy -8.664247 -6.264399)
+          (xy -8.57642 -6.311343)
+          (xy -8.481123 -6.340252)
+          (xy -8.382017 -6.350013)
+          (xy 8.382017 -6.350013)
+        )
+        (stroke (width 0.254) (type solid))
+        (fill (type background))
+      )
+      (circle (center -7.620015 5.08001) (radius 0.381001)
+        (stroke (width 0.254) (type solid))
+        (fill (type outline))
+      )
+      (pin unspecified line (at -11.430023 3.810008 0) (length 2.540005)
+        (name "#1OE" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.430023 1.270003 0) (length 2.540005)
+        (name "1A" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.430023 -1.270003 0) (length 2.540005)
+        (name "2Y" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at -11.430023 -3.810008 0) (length 2.540005)
+        (name "GND" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.430023 -3.810008 180) (length 2.540005)
+        (name "2A" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.430023 -1.270003 180) (length 2.540005)
+        (name "1Y" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.430023 1.270003 180) (length 2.540005)
+        (name "#2OE" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 11.430023 3.810008 180) (length 2.540005)
+        (name "VCC" (effects (font (size 1.27 1.27))))
+        (number "8" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

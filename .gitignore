@@ -1,0 +1,25 @@
+**/build/
+**/__pycache__/
+*.pyc
+.DS_Store
+
+# KiCad local state and backups
+*.kicad_prl
+*.lck
+*.kicad_sch-bak
+*.bak
+fp-info-cache
+**/#auto_saved_files#
+**/_autosave-*
+*-backups/
+.history/
+
+# ESP-IDF and PlatformIO build output
+firmware/.pio/
+firmware/managed_components/
+firmware/sdkconfig
+firmware/sdkconfig.old
+node_modules/
+
+# Private source photos for the silkscreen art
+*-source.png
