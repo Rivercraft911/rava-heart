@@ -1,55 +1,47 @@
 # Rava Heart
 
-Two hearts that beat together. Literally, over ESP-NOW.
+A heart-shaped PCB with 144 LEDs that syncs its heartbeat with a second one over ESP-NOW.
+Put the two near each other and they beat together.
 
-A heart-shaped PCB with 144 LEDs on the front, an ESP32-C3 on the back, and a matching one somewhere
-nearby. When they can hear each other they share one heartbeat.
-
-![Angled KiCad renders of the front and back of the board](assets/pcb-front-back.png)
-
-<!-- River: the name, and who the other heart is for, is yours to tell. -->
+![KiCad renders of the front and back](assets/pcb-front-back.png)
 
 ## Video
 
 <p align="center">
-  <img src="assets/heart-demo.gif" width="360" alt="Two Rava Hearts running side by side, cycling through their effects">
+  <img src="assets/heart-demo.gif" width="360" alt="Two Rava Hearts running side by side">
 </p>
 
 ## What it does
 
-- **144 pixels.** WS2812B-MINI-V6 in two chains of 72, driven at a fixed 60 Hz.
-- **Heartbeat.** A relaxed double pulse. Shake it and you get an extra beat.
-- **Gravity Red.** A fixed amount of red "liquid" sloshes around the heart as you tilt it, with real
-  momentum, flowing through the actual neighbour graph of the LEDs on the board.
-- **Flowing Rainbow.** It is what it sounds like.
-- **Find Heart.** A compass arrow. For now it points at magnetic north as a bench target.
-- **I ♥ U.** Hold the mode button for 0.75 s and it plays on this heart and on the other one.
-- **One heartbeat.** Hearts near each other lock to the same beat. The one with the lower MAC address
-  leads. "Near" is −72 dBm (and gone again at −80 dBm).
-
-The pairing link is group-filtered broadcast, not encrypted. That is on the list.
+- 144 WS2812B-MINI LEDs in two chains of 72, refreshed at 60 Hz
+- Heartbeat mode: a slow double pulse, and shaking it adds an extra beat
+- Gravity mode: red "liquid" sloshes around the heart as you tilt it
+- Rainbow mode, because obviously
+- Find Heart: a compass arrow (points north for now, eventually at the other heart)
+- Hold the button for about a second and both hearts play "I ♥ U"
+- When the two hearts are close enough they lock to the same beat
 
 ## Hardware
 
-- 94.0 × 88.3 mm, four layers.
-- ESP32-C3-WROOM-02, LSM6DSOX IMU, LIS3MDL magnetometer.
-- USB-C in, a TPS259531 eFuse near 3 A, and a firmware LED budget of 2.5 A.
-- [KiCad project](hardware/) · [fabrication exports](hardware/production/)
+4-layer board, 94 × 88 mm, with an ESP32-C3, an accelerometer/gyro (LSM6DSOX) and a
+magnetometer (LIS3MDL). Powered over USB-C, with an eFuse so 144 LEDs can't cook anything.
+
+KiCad files are in [`hardware/`](hardware/), fab files in [`hardware/production/`](hardware/production/).
 
 ![Front](assets/pcb-front.png)
 ![Back](assets/pcb-back.png)
 
 ## Firmware
 
-ESP-IDF 5.4 or newer, or PlatformIO. [Build notes, pin map and controls](firmware/README.md).
+Builds with ESP-IDF 5.4+ or PlatformIO. Pin map, controls and build steps are in
+[`firmware/README.md`](firmware/README.md).
 
-There is a simulator that runs the same effects in a browser with no build step:
+There's also a browser simulator that runs the same effects with no hardware:
 [`firmware/simulator/index.html`](firmware/simulator/).
 
-## The rest
+## Other folders
 
-- [`mechanical/`](mechanical/): the scripts that generated the outline, placed the LEDs and routed
-  their power.
-- [`silkscreen_art/`](silkscreen_art/): how the art on the back was made.
+- [`mechanical/`](mechanical/): scripts that generated the outline, placed the LEDs and routed power
+- [`silkscreen_art/`](silkscreen_art/): how the back art was made
 
-[MIT license](LICENSE).
+MIT licensed.
