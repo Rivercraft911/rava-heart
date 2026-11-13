@@ -11,9 +11,9 @@ nearby. When they can hear each other they share one heartbeat.
 
 ## Video
 
-**Coming soon:** a video of the pair fully working.
-
-<!-- River: drop the video here, e.g. a thumbnail linking to it. -->
+<p align="center">
+  <img src="assets/heart-demo.gif" width="360" alt="Two Rava Hearts running side by side, cycling through their effects">
+</p>
 
 ## What it does
 
